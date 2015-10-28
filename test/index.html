@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+	<script src="build/chatbox.js"></script>
+	<script src="test/test.js"></script>
+	<meta charset="utf-8">
+	<title>Chatbox</title>
+</head>
+<body ng-app="app" ng-controller="ctrl">
+	<ng-chatbox ng-model="messages"></ng-chatbox>
+	<br>
+	<button ng-click="add()">Add message</button>
+</body>
+</html>
