@@ -58,7 +58,7 @@ gulp.task('server', function(cb) {
 	require('gulp-connect').server({
 		host: 'localhost',
 		port: 4242,
-		fallback: 'test/index.html'
+		fallback: 'sample/index.html'
 	});
 	cb();
 });

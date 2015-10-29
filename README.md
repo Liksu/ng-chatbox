@@ -3,6 +3,12 @@ Chat box component for angular
 
 # install
 Copy `chatbox.min.js` bundle to your site and plug it on the page.
+```
+$ npm install --save ng-chatbox
+```
+```html
+<script src="node_modules/ng-chatbox/build/chatbox.min.js"></script>
+```
 
 # usage
 Define dependency on your angular application like this:
@@ -25,4 +31,5 @@ Each message should be an object and contains next fields:
 * expand message on click
 * remove messages
 * plain messages
+* override template and styles
 * smiles ;)
