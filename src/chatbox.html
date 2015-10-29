@@ -1,10 +1,10 @@
 <div class="holder">
 	<div class="scroller">
 		<div class="wrap">
-			<div class="message {{msg.own}}" ng-repeat="msg in messages">
+			<div class="message {{::msg.own}}" ng-repeat="msg in messages">
 				<div>
-					{{msg.text}}
-					<p class="time">{{msg.time}}</p>
+					{{:: msg | chatboxExtractText }}
+					<p class="time" ng-if="msg.time">{{::msg.time}}</p>
 				</div>
 			</div>
 		</div>

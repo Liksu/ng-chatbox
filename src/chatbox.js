@@ -20,4 +20,7 @@ angular
 				});
 			}
 		}
+	})
+	.filter('chatboxExtractText', function () {
+		return msg => msg instanceof Object ? msg.text : msg
 	});
