@@ -1,6 +1,6 @@
 {
   "name": "ng-chatbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chat box component for angular",
   "main": "build/chatbox.min.js",
   "scripts": {

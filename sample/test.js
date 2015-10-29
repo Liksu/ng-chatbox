@@ -6,7 +6,7 @@ function randomText() {
 }
 
 angular.module('app', ['ngChatbox']).controller('ctrl', function($scope) {
-	$scope.messages = [];
+	$scope.messages = ['Plain text sample message'];
 
 	$scope.add = function() {
 		$scope.messages.push({

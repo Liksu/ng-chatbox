@@ -52,8 +52,8 @@ gulp.task('default', ['clean'], function () {
 		.pipe(gulp.dest('build'))
 });
 
-gulp.task('server', function(cb) {
-	gulp.watch(['src/*.*'], ['default']);
+gulp.task('server', ['default'], function(cb) {
+	gulp.watch(['src/*.*', 'sample/*.*'], ['default']);
 
 	require('gulp-connect').server({
 		host: 'localhost',

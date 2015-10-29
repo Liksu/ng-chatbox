@@ -30,6 +30,5 @@ Each message should be an object and contains next fields:
 * auto-scroll option and new messages indication
 * expand message on click
 * remove messages
-* plain messages
 * override template and styles
 * smiles ;)
